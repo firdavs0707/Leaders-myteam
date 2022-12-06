@@ -386,7 +386,9 @@ a{
     padding-top: 76px;
     padding-bottom: 76px;
     background:var(--article-bg-color);
-    
+    background-image: url('../images/left-bottom-bg.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% - 685px) calc(50% + 120px)
 }
 
 .ready_section_wrapper{
@@ -412,6 +414,11 @@ a{
     border-radius: 24px;
     color: var(--deliver-bg-color);
     padding: 11px 33px 11px 32px;
+}
+
+.redy-section_contacts_btn:active{
+    background-color: var(--build-bg-color);
+    color: var(--main-text-color);
 }
 
 /********ready section end********/
