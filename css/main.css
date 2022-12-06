@@ -321,14 +321,13 @@ a{
     padding-top: 140px;
     padding-bottom: 151px;
     background-image: url("../images/deliver-right-bg.png"),
-      url("../images/icons/rigth-bottom-bg.svg");
-    background-position: calc(50% - 685px) calc(50% - 333px),
-      calc(50% + 660px) calc(50% + 382px);
+    url("../images/rigth-bottom-bg.svg");
+    background-position: calc(50% - 685px) calc(50% - 333px), calc(50% + 660px) calc(50% + 382px);
     background-repeat: no-repeat;
     background-color: #004047;
-  }
-  
-  .deliver-section__title {
+}
+
+.deliver-section__title {
     width: 932px;
     margin: 0 auto;
     margin-bottom: 56px;
@@ -337,48 +336,47 @@ a{
     line-height: 48px;
     text-align: center;
     color: var(--main-text-color);
-  }
-  
-  .deliver-section__title-span {
+}
+
+.deliver-section__title-span {
     color: var(--deliver-text-color);
-  }
-  
-  .deliver-section__list {
+}
+
+.deliver-section__list {
     display: flex;
     justify-content: space-between;
-  }
-  .deliver-section__item {
+}
+.deliver-section__item {
     width: 350px;
     padding-top: 36px;
-    background-image: url("../images/icons/quotu.svg");
+    background-image: url("../images/quotu.svg");
     background-repeat: no-repeat;
     background-position: top center;
     text-align: center;
-  }
-  
-  .deliver-section__desc {
+}
+
+.deliver-section__desc {
     margin-top: 0;
     margin-bottom: 24px;
     font-size: 15px;
     line-height: 25px;
     color: var(--main-text-color);
-  }
-  
-  .deliver-section__user-name {
+}
+
+.deliver-section__user-name {
     margin-top: 0;
     margin-bottom: 2px;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
     color: var(--deliver-text-color);
-  }
-  
-  .deliver-section__job-title {
+}
+
+.deliver-section__job-title {
     margin-top: 0;
     margin-bottom: 32px;
     font-size: 13px;
     line-height: 18px;
     color: var(--main-text-color);
-  }
+}
   /* Deliver section styles end */
-  
