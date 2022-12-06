@@ -380,3 +380,130 @@ a{
     color: var(--main-text-color);
 }
   /* Deliver section styles end */
+
+/********ready section start********/
+.ready_section{
+    padding-top: 76px;
+    padding-bottom: 76px;
+    background:var(--article-bg-color);
+    
+}
+
+.ready_section_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ready_section_text{
+    width: 504px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    color: var(--build-bg-color);
+}
+
+.redy-section_contacts_btn{
+    padding: 0;
+    width: 153px;
+    height: 48px;
+    border: 2px solid var(--deliver-bg-color);
+    border-radius: 24px;
+    color: var(--deliver-bg-color);
+    padding: 11px 33px 11px 32px;
+}
+
+/********ready section end********/
+
+/* ********** site footer start ************ */
+.site-footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: var(--footer-bg-color);
+}
+.site-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.site-footer-start {
+  display: flex;
+  /* align-items: center; */
+}
+.site-footer-start-box {
+  margin-right: 125px;
+}
+.site-footer-logo-link {
+  color: var(--main-text-color);
+}
+.site-footer-list {
+  display: flex;
+  margin: 0;
+  height: 35px;
+  align-items: flex-end;
+}
+.site-footer-item:first-child {
+  margin-right: 40px;
+}
+.site-footer-item-link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+  transition: color 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.site-footer-item-link:hover {
+  color: #f67e7e;
+}
+.site-footer-address-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 10px;
+}
+.site-footer-addres-item-link {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.site-footer-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.site-footer-social-list {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  height: 100px;
+}
+.site-footer-social-item:not(:first-child) {
+  margin-left: 16px;
+}
+.site-footer-social {
+  color: var(--main-text-color);
+}
+
+.site-footer-social:hover{
+    color: var(--article-bg-color);
+}
+.site-header-addres-title {
+  margin: 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+/* ********** site footer end ************ */
+
