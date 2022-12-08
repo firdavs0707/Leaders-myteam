@@ -385,7 +385,8 @@ a{
     font-size: 13px;
     line-height: 18px;
     color: var(--main-text-color);
-}
+} 
+/* Deliver section styles end */ 
 
 /* **** delivers section responsive start *** */
 @media only screen and (max-width: 1078px){
@@ -466,16 +467,15 @@ a{
     }
 }
 /* **** delivers section responsive end *** */
-/** Deliver section styles end **/
-
-/********ready section start********/
+/** Deliver section styles end **/ 
+/********READY SECTION STERT********/
 .ready_section{
     padding-top: 76px;
     padding-bottom: 76px;
     background:var(--article-bg-color);
     background-image: url('../images/left-bottom-bg.svg');
     background-repeat: no-repeat;
-    background-position: calc(50% - 685px) calc(50% + 120px)
+    background-position: calc(50% - 660px) calc(50% + 82px)
 }
 
 .ready_section_wrapper{
@@ -491,12 +491,10 @@ a{
     font-size: 48px;
     line-height: 38px;
     color: var(--build-bg-color);
+    margin: 0;
 }
 
 .redy-section_contacts_btn{
-    padding: 0;
-    width: 153px;
-    height: 48px;
     border: 2px solid var(--deliver-bg-color);
     border-radius: 24px;
     color: var(--deliver-bg-color);
@@ -508,9 +506,84 @@ a{
     color: var(--main-text-color);
 }
 
-/********ready section end********/
+/********* READY SECTION RESPONSIVE START**************/
 
-/* ********** site footer start ************ */
+@media only screen and (max-width: 768px) {
+    .ready_section {
+        /* width: 200px2x;  */
+        background-image: url('../images/left-bottom-bg.svg');
+        background-repeat: no-repeat;
+        background-position: calc(50% - 285px) calc(50% + 105px);
+        padding: 83px 0;
+    }
+    .ready_section_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .ready_section_text{
+        max-width: 336px;
+        width: 100%;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        margin-right: 84px;
+        
+        
+    }
+    
+    .redy-section_contacts_btn {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #012f34;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .ready_section {
+        /* width: 200px2x;  */
+        background-image: url('../images/left-bottom-bg.svg');
+        background-repeat: no-repeat;
+        background-position: calc(50% - 86px) calc(50% + 158px);
+        padding: 83px 0;
+    }
+    .ready_section_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    .ready_section_text{
+        max-width: 327px;
+        width: 100%;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 24px;
+        
+        
+    }
+    
+    .redy-section_contacts_btn {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #012f34;
+    }
+}
+
+/**********READY SECTION RESPONSIVE END ***************/
+
+/******** READY SECTION END********/
+
+/* ********** SITE FOOTER STERT ************ */
 .site-footer {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -598,6 +671,121 @@ a{
     color: #ffffff;
     mix-blend-mode: normal;
     opacity: 0.6;
+} 
+/* ********** SITE FOOTER END ************ */
+
+/**********FOOTER RESPONSIVE STERT*********/
+@media only screen and (max-width: 768px){
+    .site-footer{
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+    .site-footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: center; */
+    }
+    .site-footer-start {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .site-footer-social-list {
+        display: flex;
+        width: 104px;
+        margin-right: auto;
+    }
+    .site-footer-list{
+        margin-bottom: 33px;
+    }
+    .site-header-addres-title{
+        width: 255px;
+        margin-right: auto;
+    } 
+    .site-footer-logo-link{
+        margin-bottom: 53px;
+    }
+    .site-footer-item-link {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+    .site-footer-address-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      
+        margin: 0;
+        margin-right: auto;
+        gap: 10px;
+        /* margin-left: 200px; */
+    }
+    .site-footer-start-box {
+        margin-left: auto;
+    }
 }
-/* ********** site footer end ************ */
+
+
+@media only screen and (max-width: 375px){
+    .site-footer{
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+    .site-footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: center; */
+    }
+    
+    .site-footer-start {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .site-footer-social-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .site-footer-list{
+        margin-bottom: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .site-header-addres-title{
+        width: 255px;
+    } 
+    .site-footer-logo-link{
+        margin-bottom: 53px;
+    }
+    .site-footer-item-link {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+    .site-footer-address-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 10px;
+        /* margin-left: 200px; */
+    }
+    .site-footer-start-box {
+        margin: 0;
+    }
+}
+/*********FOOTER RESPONSIVE END***************/ 
+/* ********** site footer end ************ */ 
 
